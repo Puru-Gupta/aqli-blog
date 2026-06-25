@@ -1,7 +1,7 @@
 title: AQLI Blog Portal
 description: Research notes, explainers, and data stories on air pollution, policy, and life expectancy.
-url: ""
-baseurl: ""
+url: "https://puru-gupta.github.io"
+baseurl: "/aqli-blog"
 timezone: Asia/Kolkata
 lang: en
 
