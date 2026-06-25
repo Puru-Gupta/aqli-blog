@@ -1,0 +1,9 @@
+<a class="file-link" href="{{ include.href | relative_url }}">
+  <span class="file-link__type">{{ include.type | default: "FILE" }}</span>
+  <span class="file-link__body">
+    <strong>{{ include.title | default: "Download file" }}</strong>
+    {% if include.description %}
+      <small>{{ include.description }}</small>
+    {% endif %}
+  </span>
+</a>

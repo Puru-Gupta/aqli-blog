@@ -1,0 +1,31 @@
+<header class="site-header">
+  <div class="brand-bar">
+    <div class="shell brand-bar__inner">
+      <span>Air quality research publishing portal</span>
+      <a href="https://aqli.epic.uchicago.edu/" rel="noopener">Official AQLI</a>
+    </div>
+  </div>
+  <nav class="main-nav shell" aria-label="Main navigation">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+      <span class="wordmark__symbol" aria-hidden="true">
+        <i></i><i></i><i></i><i></i>
+      </span>
+      <span>
+        <strong>AQLI</strong>
+        <em>Blog Portal</em>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span class="sr-only">Menu</span>
+    </button>
+    <div class="main-nav__links" id="primary-menu">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/archive/' | relative_url }}">Archive</a>
+      <a href="{{ '/publish/' | relative_url }}">Publish</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+    </div>
+  </nav>
+</header>

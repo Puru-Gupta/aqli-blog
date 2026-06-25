@@ -1,0 +1,33 @@
+name: New blog post request
+description: Use this form when a non-coder wants an editor to publish a post.
+title: "New post: "
+labels: ["blog-post"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Post title
+      placeholder: "Example: What 2023 PM2.5 exposure means for..."
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: One-sentence summary
+      description: This becomes the homepage/archive summary.
+    validations:
+      required: true
+  - type: textarea
+    id: body
+    attributes:
+      label: Draft body
+      description: Paste the post draft. Markdown is welcome but not required.
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Figures or files
+      description: Attach plots, PDFs, spreadsheets, or data files to this issue, or list where they are stored.
+    validations:
+      required: false

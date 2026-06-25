@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<main id="main-content" class="page-shell">
+  <section class="page-hero shell">
+    <p class="eyebrow">{{ page.title }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}
+      <p>{{ page.summary }}</p>
+    {% endif %}
+  </section>
+
+  <section class="section">
+    <article class="prose shell shell--narrow">
+      {{ content }}
+    </article>
+  </section>
+</main>

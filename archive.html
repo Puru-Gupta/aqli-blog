@@ -1,0 +1,29 @@
+---
+layout: default
+title: Archive
+permalink: /archive/
+---
+
+<main id="main-content" class="page-shell">
+  <section class="page-hero shell">
+    <p class="eyebrow">Archive</p>
+    <h1>All posts</h1>
+    <p>Search the blog by title, topic, place, file type, or author.</p>
+  </section>
+
+  <section class="section section--muted">
+    <div class="shell">
+      <div class="filter-box filter-box--wide">
+        <label for="archive-search">Search archive</label>
+        <input id="archive-search" type="search" placeholder="Try PM2.5, India, dataset, policy...">
+      </div>
+
+      <div class="post-list" data-post-list>
+        {% for post in site.posts %}
+          {% include post-card.html post=post list=true %}
+        {% endfor %}
+      </div>
+      <p class="empty-state" data-empty-state hidden>No posts match that search.</p>
+    </div>
+  </section>
+</main>

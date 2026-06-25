@@ -1,0 +1,39 @@
+title: AQLI Blog Portal
+description: Research notes, explainers, and data stories on air pollution, policy, and life expectancy.
+url: ""
+baseurl: ""
+timezone: Asia/Kolkata
+lang: en
+
+author:
+  name: AQLI Editorial Team
+  email: ""
+
+permalink: /:categories/:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      category: analysis
+      author: AQLI Editorial Team
+      image: /assets/images/aqli-particulate-field.png
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - PUBLISHING.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
