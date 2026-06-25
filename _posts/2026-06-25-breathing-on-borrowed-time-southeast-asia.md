@@ -6,14 +6,13 @@ author: "AQLI Editorial Team"
 summary: "From Bangkok to Vientiane, air pollution is reducing life expectancy across Southeast Asia and increasing pressure on governments to strengthen air quality policies."
 category: analysis
 tags:
-
-* PM2.5
-* life expectancy
-* Southeast Asia
-* ASEAN
-  image: /assets/uploads/southeast-asia-air-pollution.png
-  image_alt: "Air pollution and haze across Southeast Asia"
-  featured: false
+  - PM2.5
+  - life expectancy
+  - Southeast Asia
+  - ASEAN
+image: /assets/uploads/southeast-asia-air-pollution.png
+image_alt: "Air pollution and haze across Southeast Asia"
+featured: false
 
 ---
 
