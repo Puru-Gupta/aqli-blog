@@ -1,20 +1,17 @@
 ---
-
 title: "Breathing on Borrowed Time: How Air Pollution Is Forcing a Reckoning Across Southeast Asia"
 date: 2026-06-25
 author: "AQLI Editorial Team"
 summary: "Across Southeast Asia, millions are exposed to unhealthy levels of fine particulate pollution that reduce life expectancy and increase pressure for stronger regional action."
 category: analysis
 tags:
-
-* PM2.5
-* life expectancy
-* Southeast Asia
-* ASEAN
-  image: /assets/uploads/southeast-asia-air-pollution.png
-  image_alt: "Air pollution and haze across Southeast Asia"
-  featured: false
-
+  - PM2.5
+  - life expectancy
+  - Southeast Asia
+  - ASEAN
+image: "/assets/uploads/southeast-asia-air-pollution.png"
+image_alt: "Air pollution and haze across Southeast Asia"
+featured: false
 ---
 
 Across Southeast Asia, millions are inhaling air that is quietly shaving **## years** off their lives. The air throughout much of the region has become something people now check before stepping outside. In Bangkok, masks are no longer just a pandemic memory. In Vientiane, schools brace for haze days. Across the Mekong basin, the dry season has once again arrived with a familiar companion: fine, invisible particles that slip deep into lungs and shorten lives.
