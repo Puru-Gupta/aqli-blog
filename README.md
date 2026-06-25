@@ -1,6 +1,6 @@
-# AQLI Blog Portal
+# AQLI Research Blog
 
-A professional GitHub Pages blog template for AQLI-style research posts, policy explainers, charts, and downloadable files.
+A professional GitHub Pages blog for AQLI-style research posts, policy explainers, charts, and downloadable files.
 
 ## What is included
 

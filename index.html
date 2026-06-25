@@ -9,34 +9,36 @@ title: Home
 {% endunless %}
 
 <section class="hero">
-  <div class="hero__media" aria-hidden="true">
-    <img src="{{ '/assets/images/aqli-particulate-field.png' | relative_url }}" alt="">
-  </div>
-  <div class="hero__content shell">
-    <p class="eyebrow">Air Quality Life Index Blog</p>
-    <h1>Publish clean-air research in a format people can actually use.</h1>
-    <p class="hero__lede">A GitHub Pages portal for AQLI explainers, policy notes, charts, datasets, and field updates, designed so a non-coder can publish from one Markdown template.</p>
-    <div class="hero__actions" aria-label="Primary actions">
-      <a class="button button--primary" href="{{ '/publish/' | relative_url }}">How to publish</a>
-      <a class="button button--quiet" href="{{ '/archive/' | relative_url }}">Browse posts</a>
+  <div class="shell hero__grid">
+    <div class="hero__content">
+      <p class="eyebrow">Air Quality Life Index Blog</p>
+      <h1>AQLI Research Blog</h1>
+      <p class="hero__lede">Analysis, explainers, and data stories on particulate pollution, policy, and life expectancy.</p>
+      <div class="hero__actions" aria-label="Primary actions">
+        <a class="button button--primary" href="{{ '/archive/' | relative_url }}">Read latest posts</a>
+        <a class="button button--quiet" href="{{ '/publish/' | relative_url }}">Publishing guide</a>
+      </div>
+    </div>
+    <div class="hero__media" aria-hidden="true">
+      <img src="{{ '/assets/images/aqli-particulate-field.png' | relative_url }}" alt="">
     </div>
   </div>
 </section>
 
 <main id="main-content">
   <section class="section section--compact shell">
-    <div class="signal-strip" aria-label="Portal highlights">
+    <div class="signal-strip" aria-label="Blog capabilities">
       <div>
-        <strong>Markdown first</strong>
-        <span>Duplicate one file and edit title, date, body, and links.</span>
+        <strong>Editorial posts</strong>
+        <span>Analysis, explainers, field updates, and research notes.</span>
       </div>
       <div>
-        <strong>Plot friendly</strong>
-        <span>PNG, JPG, PDF, CSV, XLSX, and ZIP uploads live in one folder.</span>
+        <strong>Figures and files</strong>
+        <span>Embed plots and link PDFs, CSVs, spreadsheets, and appendices.</span>
       </div>
       <div>
-        <strong>GitHub Pages ready</strong>
-        <span>No database, CMS, or paid hosting required.</span>
+        <strong>Simple publishing</strong>
+        <span>Non-coders can duplicate one Markdown template and upload assets.</span>
       </div>
     </div>
   </section>
@@ -45,8 +47,8 @@ title: Home
   <section class="section shell">
     <div class="section-heading section-heading--split">
       <div>
-        <p class="eyebrow">Featured analysis</p>
-        <h2>Lead story</h2>
+        <p class="eyebrow">Featured</p>
+        <h2>From the blog</h2>
       </div>
       <a class="text-link" href="{{ '/archive/' | relative_url }}">All posts</a>
     </div>
@@ -73,8 +75,8 @@ title: Home
     <div class="shell">
       <div class="section-heading section-heading--split">
         <div>
-          <p class="eyebrow">Latest posts</p>
-          <h2>Research notes and data stories</h2>
+          <p class="eyebrow">Latest</p>
+          <h2>Recent posts</h2>
         </div>
         <div class="filter-box">
           <label for="post-search">Search posts</label>
@@ -93,8 +95,8 @@ title: Home
 
   <section class="section shell">
     <div class="section-heading">
-      <p class="eyebrow">Editorial portal</p>
-      <h2>Built around the AQLI publishing workflow</h2>
+      <p class="eyebrow">For editors</p>
+      <h2>Publishing workflow</h2>
     </div>
     <div class="workflow-grid">
       <a class="workflow-card" href="{{ '/publish/' | relative_url }}">

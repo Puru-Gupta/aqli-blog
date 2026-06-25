@@ -5,9 +5,9 @@ permalink: /about/
 summary: A lightweight publishing home for AQLI-style explainers, charts, and field notes.
 ---
 
-This portal is a static GitHub Pages site for publishing air pollution and life expectancy research in a clean editorial format. It is designed for teams that need fast posts, reusable figures, and downloadable files without running a custom backend.
+This blog is a static GitHub Pages publication for air pollution and life expectancy research. It is designed for teams that need careful posts, reusable figures, and downloadable files without running a custom backend.
 
-The theme borrows from the AQLI and EPIC Air Quality Fund visual language: UChicago maroon, warm particulate tones, cool blues and teals, narrow editorial headings, and data-first layouts.
+The theme borrows from the AQLI and EPIC Air Quality Fund visual language while keeping the reading experience restrained: UChicago maroon, quiet neutrals, data-first layouts, and academic editorial typography.
 
 Use it for:
 
